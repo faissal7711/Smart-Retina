@@ -139,8 +139,10 @@ class NavigationDrawer extends StatelessWidget {
     }
     switch (index) {
       case 1:
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => DoctorProfileFromPatientPage()));
+        Navigator.pushNamed(context, Routes.DoctorProfileFromPatientPage);
+//        Get.offNamed(Routes.DoctorProfileFromPatientPage);
+//        Navigator.push(
+//            context, MaterialPageRoute(builder: (context) => DoctorProfileFromPatientPage()));
         break;
     }
     switch (index) {

@@ -47,7 +47,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: const Text('QUESTIONS'),
-        leading: const BackButtonIcon(),
+//        leading: const BackButtonIcon(),
       ),
       body: Column(
         children: [

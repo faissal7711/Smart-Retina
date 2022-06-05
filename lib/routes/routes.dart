@@ -14,6 +14,7 @@ import 'package:smart/view/screens/payment_screen.dart';
 import 'package:smart/view/screens/settings_screen.dart';
 
 import '../screens/adding_question.dart';
+import '../screens/doctor_profile_from_pationet.dart';
 import '../screens/questions_screen.dart';
 import '../screens/signup_as.dart';
 import '../screens/upload_image.dart';
@@ -96,6 +97,10 @@ class AppRoutes {
       name: Routes.UploadImage,
       page: () => UploadImage(),
     ),
+    GetPage(
+      name: Routes.DoctorProfileFromPatientPage,
+      page: () => DoctorProfileFromPatientPage(),
+    ),
   ];
 }
 
@@ -114,4 +119,5 @@ class Routes {
   static const QuestionsScreen = '/category_meals';
   static const AddingQuestion = '/AddingQuestion';
   static const UploadImage = '/UploadImage';
+  static const DoctorProfileFromPatientPage = '/DoctorProfileFromPatientPage';
 }

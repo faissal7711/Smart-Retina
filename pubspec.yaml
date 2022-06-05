@@ -45,8 +45,8 @@ dependencies:
   badges: ^2.0.2
   smooth_page_indicator: ^1.0.0+2
   carousel_slider: ^4.0.0
-  flutter_rating_bar: ^4.0.0
-  flutter_simple_rating_bar: ^0.0.3
+#  flutter_rating_bar: ^4.0.0
+#  flutter_simple_rating_bar: ^0.0.3
   readmore: ^2.1.0
   geolocator: ^8.0.1
   geocoding: ^2.0.1
@@ -55,7 +55,7 @@ dependencies:
   location: ^4.3.0
    
   convex_bottom_bar: ^3.0.0
-  introduction_screen: ^1.0.9
+  introduction_screen: ^3.0.2
 
   font_awesome_flutter: ^8.2.0
   image_picker: ^0.8.5+3

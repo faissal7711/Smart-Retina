@@ -4,29 +4,16 @@ import 'package:flutter/material.dart';
 
 import '../widgets/notification_item.dart';
 
-class DoctorProfileFromPatientPage extends StatefulWidget {
-//  final User user;
-//  DoctorProfileFromPatientPage({Key key, this.user}) : super(key: key);
-
-  @override
-  _DoctorProfileFromPatientPageState createState() =>
-      _DoctorProfileFromPatientPageState();
-}
-
-class _DoctorProfileFromPatientPageState
-    extends State<DoctorProfileFromPatientPage> {
+class DoctorProfileFromPatientPage extends StatelessWidget {
   var date = DateTime.now();
-
-  @override
-  void initState() {
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          primary: true, centerTitle: true, title: const Text("Profile")),
+        centerTitle: true,
+        title: const Text("Profile"),
+      ),
       body: ListView(
         children: <Widget>[
 //          NotificationItem(
